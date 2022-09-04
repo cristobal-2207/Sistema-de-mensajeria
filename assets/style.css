@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+.global{
+  display: flex;
+  min-width: 100vw;
+  font-family: Roboto;
+}
+.contacts{
+  min-width: 40vw;
+}
+.details-contact{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 12rem;
+}
+.details-text{
+  flex-direction: column;
+}
+.name{
+  font-weight: bold;
+}
+.description{
+  font-weight: 400;
+}
+.img-contact{
+  border-radius: 100%;
+  height: 8rem;
+}
+.icon-position{
+  display: flex;
+  align-items: center;
+}
+.height-icons{
+  height: 2.5rem;
+}
+.conversations{
+  min-width: 60vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.conversations img{
+  width: 30rem;
+}
+.chat-button{
+  display: flex;
+  justify-content: center;
+}
+.chat-button p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  background-color: #a491d2;
+  height: 4rem;
+  width: 16rem;
+  font-weight: bold;
+}
